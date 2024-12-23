@@ -174,6 +174,69 @@
             background: var(--secondary-blue);
             
         }
+        .mobile-filter-toggle {
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--primary-blue);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 0 5px 5px 0;
+            z-index: 1000;
+            border: none;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+        }
+
+        .mobile-filter-menu {
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 280px;
+            background: white;
+            z-index: 1001;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+            overflow-y: auto;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .mobile-filter-menu.show {
+            transform: translateX(0);
+        }
+
+        .mobile-filter-close {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--primary-blue);
+        }
+
+        @media (max-width: 768px) {
+            .filter-buttons.desktop {
+                display: none;
+            }
+
+            .mobile-filter-toggle {
+                display: block;
+            }
+
+            .mobile-filter-menu {
+                display: block;
+            }
+
+            .main-content {
+                width: 100%;
+                padding: 0 15px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -200,9 +263,10 @@
 
     <!-- Main Content -->
     <div class="container my-5 d-flex">
-        <div class="filter-buttons sticky-top col-md-2 col-lg-2 col-sm-2" style="z-index: 1; padding-bottom: 18px; padding-right: 10px;">
+        <!-- Desktop Filter Sidebar -->
+        <div class="filter-buttons desktop sticky-top col-md-4 col-lg-2 col-sm-4" style="z-index: 1; padding-bottom: 18px; padding-right: 10px;">
             <div class="d-flex flex-wrap justify-content-center">
-                <h2>Categories</h2>
+                <h4 style="text-decoration: underline;">Categories</h4>
                 <button class="filter-btn active" data-category="all">All Partners</button>
                 <button class="filter-btn" data-category="automotive">Automotive</button>
                 <button class="filter-btn" data-category="manufacturing">Manufacturing</button>
@@ -218,20 +282,39 @@
                 <button class="filter-btn" data-category="other">Other</button>
             </div>
         </div>
-        <div class="main-content col-md-8 col-lg-8 col-sm-8">
-            <!-- Partners will be dynamically inserted here -->
+
+        <!-- Mobile Filter Toggle Button -->
+        <button class="mobile-filter-toggle" aria-label="Toggle filters menu">
+            <i class="fas fa-filter"></i>
+        </button>
+
+        <!-- Mobile Filter Menu -->
+        <div class="mobile-filter-menu">
+            <button class="mobile-filter-close" aria-label="Close filters menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <h4 style="text-decoration: underline; margin-bottom: 20px;">Categories</h4>
+            <button class="filter-btn active" data-category="all">All Partners</button>
+            <button class="filter-btn" data-category="automotive">Automotive</button>
+            <button class="filter-btn" data-category="manufacturing">Manufacturing</button>
+            <button class="filter-btn" data-category="towing">Towing & Logistics</button>
+            <button class="filter-btn" data-category="food">Food & Dining</button>
+            <button class="filter-btn" data-category="health">Healthcare</button>
+            <button class="filter-btn" data-category="home">Home Services</button>
+            <button class="filter-btn" data-category="retail">Retail</button>
+            <button class="filter-btn" data-category="professional">Professional Services</button>
+            <button class="filter-btn" data-category="education">Education</button>
+            <button class="filter-btn" data-category="nonprofit">Non-Profit</button>
+            <button class="filter-btn" data-category="entertainment">Entertainment</button>
+            <button class="filter-btn" data-category="other">Other</button>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content col-md-8 col-lg-10 col-sm-8">
             <div class="row" id="partners-grid">
                 <!-- Dynamic content goes here -->
             </div>
         </div>
-    <div class="sticky-sidebar col-md-2 col-lg-2 col-sm-2">
-        <div class="d-flex flex-wrap justify-content-center">
-            <h2>Top Donors</h2>
-            <div id="top-donors-list">
-                <!-- Top donors list will be dynamically inserted here -->
-            </div>
-        </div>
-    </div>
     </div>
 
     <!-- Sticky Disclaimer Bar -->
@@ -260,20 +343,20 @@
                 // Populate partners grid
                 data.partners.forEach(partner => {
                     const partnerCard = `
-                        <div class="col-md-8 col-lg-8 partner-card" data-category="${partner.category}">
-                            <div class="card" style="width: 100%; height: 250px;">
+                        <div class="col-md-8 col-lg-8 col-sm-12 partner-card" data-category="${partner.category}">
+                            <div class="card" style="width: 100%; height: auto;">
                                 <div class="row align-items-center" style="margin-left: 4px;">
-                                    <img src="${partner.image}" class="card-img-logo col-md-4 col-lg-4 col-sm-4" alt="${partner.name}" style="width: 200px; height: 200px; border-radius: 10%; object-fit: contain;">
-                                    <div class="card-body col-md-8 col-lg-8 col-sm-8">
+                                    <img src="${partner.image}" class="card-img-logo col-md-3 col-lg-3 col-sm-12" alt="${partner.name}" style="width: 100%; height: auto; border-radius: 10%; object-fit: cover;">
+                                    <div class="card-body col-md-8 col-lg-8 col-sm-12">
                                         <h5 class="card-title" style="text-decoration: underline;">${partner.name}</h5>
                                         <div class="row">
-                                            <div class="card-text-container col-md-8 col-lg-8 col-sm-8">
+                                            <div class="card-text-container col-md-6 col-lg-6 col-sm-12">
                                                 <p class="card-text">${partner.description}</p>
                                                 <p class="card-text"><small class="text-muted">${partner.address}</small></p>
                                                 <p class="card-text"><small class="text-muted"><i class="fas fa-phone"></i> ${partner.phone}</small></p>
                                                 <a href="http://${partner.website}" class="btn btn-primary" target="_blank" style="display: flex; justify-content: center; align-items: center; width: 100%; background-color: var(--primary-blue); color: white;">Visit Website</a>
                                             </div>
-                                            <div class="col-md-4 col-lg-4 col-sm-4">
+                                            <div class="col-md-6 col-lg-3 col-sm-12">
                                                 <p class="card-text">Additional Information</p>
                                                 <p class="card-text">More details about the partner</p>
                                                 <div class="rating">
@@ -310,6 +393,30 @@
                 }
             });
 
+            $('.mobile-filter-toggle').click(function() {
+                $('.mobile-filter-menu').addClass('show');
+                $('body').css('overflow', 'hidden'); // Prevent scrolling when menu is open
+            });
+
+            $('.mobile-filter-close').click(function() {
+                $('.mobile-filter-menu').removeClass('show');
+                $('body').css('overflow', ''); // Restore scrolling
+            });
+
+            // Handle filter clicks (both mobile and desktop)
+            $('.filter-btn').click(function() {
+                const category = $(this).data('category');
+                $('.filter-btn').removeClass('active');
+                $('.filter-btn[data-category="' + category + '"]').addClass('active');
+                
+                // Close mobile menu after selection
+                $('.mobile-filter-menu').removeClass('show');
+                $('body').css('overflow', '');
+                
+                // Your existing filter logic here
+                loadPartners(category);
+            });
+
             // Disclaimer toggle
             $('.disclaimer-toggle').click(function() {
                 const disclaimerBar = $('.disclaimer-bar');
@@ -321,6 +428,8 @@
                     '<i class="fas fa-chevron-down"></i> Hide Disclaimer'
                 );
             });
+
+            
 
             // Sticky navbar (without smooth scroll)
             
