@@ -89,11 +89,11 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background: rgba(0, 43, 127, 0.95);
+            background: #E31B23;
             color: white;
-            padding: 15px 0;
+            padding: 5px 0;
             z-index: 1000;
-            transform: translateY(calc(100% - 60px));
+            transform: translateY(calc(100% - 40px));
             transition: transform 0.3s ease-in-out;
         }
 
@@ -105,7 +105,7 @@
             position: absolute;
             top: -40px;
             right: 20px;
-            background: var(--primary-blue);
+            background: rgba(231, 37, 3, 0.781);
             color: white;
             border: none;
             padding: 8px 15px;
@@ -114,7 +114,7 @@
         }
 
         .disclaimer-content {
-            max-height: 300px;
+            max-height: 200px;
             overflow-y: auto;
         }
 
@@ -129,6 +129,7 @@
         .main-content {
             height: calc(100vh - 60px);
             overflow-y: auto;
+            overflow-x: hidden;
         }
 
         /* Custom scrollbar styles */
@@ -180,7 +181,7 @@
             left: 0;
             top: 50%;
             transform: translateY(-50%);
-            background: var(--primary-blue);
+            background: #E31B23;
             color: white;
             padding: 10px 15px;
             border-radius: 0 5px 5px 0;
@@ -216,7 +217,7 @@
             background: none;
             border: none;
             font-size: 1.5rem;
-            color: var(--primary-blue);
+            color: #E31B23;
         }
 
         @media (max-width: 768px) {
@@ -345,8 +346,8 @@
                     const partnerCard = `
                         <div class="col-md-8 col-lg-8 col-sm-12 partner-card" data-category="${partner.category}">
                             <div class="card" style="width: 100%; height: auto;">
-                                <div class="row align-items-center" style="margin-left: 4px;">
-                                    <img src="${partner.image}" class="card-img-logo col-md-3 col-lg-3 col-sm-12" alt="${partner.name}" style="width: 100%; height: auto; border-radius: 10%; object-fit: cover;">
+                                <div class="row align-items-center" style="margin: 4px 4px;">
+                                    <img src="${partner.image}" class="card-img-logo col-md-12 col-lg-3 col-sm-12" alt="${partner.name}" style="max-width: 7500%; max-height: 200px; border-radius: 10%; object-fit: contain;">
                                     <div class="card-body col-md-8 col-lg-8 col-sm-12">
                                         <h5 class="card-title" style="text-decoration: underline;">${partner.name}</h5>
                                         <div class="row">
