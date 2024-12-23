@@ -103,12 +103,12 @@
 
         .disclaimer-toggle {
             position: absolute;
-            top: -40px;
+            top: -30px;
             right: 20px;
             background: rgba(231, 37, 3, 0.781);
             color: white;
             border: none;
-            padding: 8px 15px;
+            padding: 4px 8px;
             border-radius: 5px 5px 0 0;
             z-index: 1000;
         }
@@ -321,7 +321,7 @@
     <!-- Sticky Disclaimer Bar -->
     <div class="disclaimer-bar">
         <button class="disclaimer-toggle">
-            <i class="fas fa-chevron-up"></i> View Disclaimer
+            <i class="fas fa-chevron-up"></i>
         </button>
         <div class="container">
             <div class="disclaimer-content">
@@ -425,8 +425,8 @@
                 
                 disclaimerBar.toggleClass('expanded');
                 $(this).html(isExpanded ? 
-                    '<i class="fas fa-chevron-up"></i> View Disclaimer' : 
-                    '<i class="fas fa-chevron-down"></i> Hide Disclaimer'
+                    '<i class="fas fa-chevron-up"></i>' : 
+                    '<i class="fas fa-chevron-down"></i>'
                 );
             });
 
