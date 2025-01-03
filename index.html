@@ -242,18 +242,6 @@
 </head>
 <body>
     
-    <div class="hero-banner">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <h1 class="display-4 mb-4 text-white">Love Your City Partners</h1>
-                    <p class="lead text-white">We Are Often Asked For Recommendations Of Companies That We Know, We Trust, And Who Help Us Support Our Community. This Is Our List. We Publish It In Hopes That You Will Consider These Companies For Your Needs As You Look For Goods And Services.</p>
-                    <button class="btn btn-light btn-lg mt-3">JOIN OUR 250+ COMMUNITY PARTNERS</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    
     <!-- Filter Buttons -->
     
     
@@ -349,7 +337,18 @@
                                 <div class="row align-items-center" style="margin: 4px 4px;">
                                     <img src="${partner.image}" class="card-img-logo col-md-12 col-lg-3 col-sm-12" alt="${partner.name}" style="max-width: 7500%; max-height: 200px; border-radius: 10%; object-fit: contain;">
                                     <div class="card-body col-md-8 col-lg-8 col-sm-12">
-                                        <h5 class="card-title" style="text-decoration: underline;">${partner.name}</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 col-lg-6 col-sm-6">
+                                                <h5 class="card-title" style="text-decoration: underline;">${partner.name}</h5>
+                                            </div>
+                                            <div class="col-md-6 col-lg-6 col-sm-6">
+                                              <a href="${partner.website}">  
+                                                <button onClick="window.open('${partner.website}', '_blank');" class="card-text" style="cursor: default; background-color: rgba(240, 240, 240, 0.5); color: black;
+                                                    border-style: inset; border-radius: 10px; padding: 3px; font-size: 14px;">${partner.category.charAt(0).toUpperCase() + partner.category.slice(1)}
+                                                </button>
+                                              </a>
+                                            </div>
+                                        </div>
                                         <div class="row">
                                             <div class="card-text-container col-md-6 col-lg-6 col-sm-12">
                                                 <p class="card-text">${partner.description}</p>
@@ -439,6 +438,10 @@
             $('.navbar-nav>li>a').on('click', function(){
                 $('.navbar-collapse').collapse('hide');
             });
+
+
+        
+       
         });
     </script>
 </body>
