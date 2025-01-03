@@ -13,7 +13,7 @@
       {
         "id": 2,
         "name": "Azle Discount Automotive & Tire",
-        "category": "automotive",
+        "category": "automotive & transportation",
         "description": "Full-service auto repair and maintenance",
         "address": "276 Northwest Parkway, Azle, TX 76020.",
         "phone": "(817) 752-6060",
@@ -23,7 +23,7 @@
       {
         "id": 3,
         "name": "Christian Brothers Automotive",
-        "category": "automotive",
+        "category": "automotive & transportation",
         "description": "Comprehensive automotive services",
         "address": "6531 Lake Worth Blvd, Lake Worth, US",
         "phone": "(817) 489-9361",
@@ -33,7 +33,7 @@
       {
         "id": 4,
         "name": "Winstead Paint & Body",
-        "category": "automotive",
+        "category": "automotive & transportation",
         "description": "Comprehensive automotive services",
         "address": "5329 White Settlement Rd, Fort Worth, US",
         "phone": "(817) 737-6326",
@@ -43,7 +43,7 @@
       {
         "id": 5,
         "name": "Integrated Machinery Solutions",
-        "category": "manufaturing",
+        "category": "utilities & manufacturing",
         "description": "Custom equipment solutions through engineering, design, and manufacturing",
         "address": "1500 NW Pkwy St, Azle, TX 76020",
         "phone": "(877) 693-7467",
@@ -53,7 +53,7 @@
       {
         "id": 6,
         "name": "Metroplex Fabrication & Erection",
-        "category": "manufacturing",
+        "category": "utilities & manufacturing",
         "description": "High quality steel fabrication and erection.",
         "address": " 609 Profit St, Azle, TX 76020",
         "phone": "(817) 444-7017",
@@ -63,7 +63,7 @@
       {
         "id": 7,
         "name": "Mueller INC.",
-        "category": "manufacturing",
+        "category": "utilities & manufacturing",
         "description": "Premier supplier of custom steel buildings, prefabricated kit buildings, and residential metal roofing",
         "address": "8380 I-20, Aledo, TX 76008",
         "phone": "(866) 806-0959",
@@ -73,77 +73,77 @@
       {
         "id": 8,
         "name": "Rogue Crane Services",
-        "category": "manufacturing",
+        "category": "utilities & manufacturing",
         "description": "Comprehensive healthcare services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "5724 Old Springtown Rd, Weatherford, TX 76085-5750",
+        "phone": "(817) 517-9635",
+        "website": "www.roguecraneservices.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/45621ed4-04df-41fc-a45c-2a8d6ad45052/Rogue+%281%29.png?format=300w"
       },
       {
         "id": 9,
         "name": "Champion Hotshots",
-        "category": "towing",
-        "description": "Comprehensive healthcare services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "category": "automotive & transportation",
+        "description": "Cargo & Freight Company",
+        "address": "4364 Western Center Blvd #178, Fort Worth, TX, United States, Texas",
+        "phone": "(817) 800-7128",
+        "website": "www.championhotshots.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/a1f1597a-676f-4b52-89fe-916c408f4a48/301374143_592419522473828_3273810055464868156_n.jpg?format=300w"
       },
       {
         "id": 12,
         "name": "Kangaroo Towing",
-        "category": "towing",
+        "category": "automotive & transportation",
         "description": "Towing Service",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "111 W Josephine St, Weatherford, TX 76086",
+        "phone": "(940) 452-6052",
+        "website": "www.facebook.com/peggycrutsinger",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/6f0aac7e-2220-40a6-9265-eaec35c23b24/kangaroo%2Btowing%2B.jpg?format=300w"
       },
       {
         "id": 13,
         "name": "Silverstar Wrecker",
-        "category": "towing",
-        "description": "Towing Service",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "category": "automotive & transportation",
+        "description": "Dependable towing services for local and long-distance needs, including roadside assistance.",
+        "address": "1825 Banks Dr, Weatherford, TX 76087",
+        "phone": "(817) 901-9099",
+        "website": "www.silverstartowing.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/a7af32b1-c4e1-47d2-a5dc-aaefc443e6d6/silverstar%2Bwrecker%2Blogo.jpg?format=300w"
       },
       {
         "id": 14,
         "name": "Stealth Towing",
-        "category": "towing",
-        "description": "Towing Service",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "category": "automotive & transportation",
+        "description": "Stealth Towing and Recovery Services, LLC is a fully licensed and insured Towing and Recovery Service",
+        "address": "1081 East Reno Rd, Azle, TX, United States, Texas",
+        "phone": "(682) 214-7624",
+        "website": "www.stealthtars.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/b702683c-dd06-4362-b531-b280658835a1/stealth%2Btowing%2B.jpg?format=300w"
       },
       {
         "id": 15,
         "name": "Redbird Ranch Towing",
-        "category": "towing",
+        "category": "automotive & transportation",
         "description": "Towing Service",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "",
+        "phone": "",
+        "website": "",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/782faeb8-53e4-494e-ad1a-157643681775/Red%2BBird%2BAcres.jpg?format=300w"
       },
       {
         "id": 16,
         "name": "ABSA Logistics, LLC",
-        "category": "logistics",
+        "category": "automotive & transportation",
         "description": "Logistics Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "Stephenville, TX, United States, Texas",
+        "phone": "(254) 592-4019",
+        "website": "www.absalogisticsllc.net",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/65cf34d1-08c5-4386-8410-4a151600f353/absa%2Blogistics%2B.jpg?format=300w"
       },
       {
         "id": 17,
         "name": "Pinnacle Bank",
-        "category": "banking",
+        "category": "finance & insurance",
         "description": "Banking Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -153,7 +153,7 @@
       {
         "id": 18,
         "name": "PNC Bank",
-        "category": "banking",
+        "category": "finance & insurance",
         "description": "Banking Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -163,7 +163,7 @@
       {
         "id": 19,
         "name": "First United Mortgage Group",
-        "category": "banking",
+        "category": "finance & insurance",
         "description": "Banking Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -173,7 +173,7 @@
       {
         "id": 20,
         "name": "Benchmark Mortgage",
-        "category": "banking",
+        "category": "finance & insurance",
         "description": "Banking Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -183,7 +183,7 @@
       {
         "id": 21,
         "name": "Housing Channel",
-        "category": "finance",
+        "category": "finance & insurance",
         "description": "Financial Advisory Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -193,7 +193,7 @@
       {
         "id": 22,
         "name": "Integrity Financial Group",
-        "category": "finance",
+        "category": "finance & insurance",
         "description": "Financial Advisory Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -203,7 +203,7 @@
       {
         "id": 23,
         "name": "Marsha Hardin Real Estate",
-        "category": "realtor",
+        "category": "real estate & professional services",
         "description": "Real Estate Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -213,7 +213,7 @@
       {
         "id": 24,
         "name": "Superior Real Estate Group",
-        "category": "realtor",
+        "category": "real estate & professional services",
         "description": "Real Estate Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -223,7 +223,7 @@
       {
         "id": 25,
         "name": "The Property Shop",
-        "category": "realtor",
+        "category": "real estate & professional services",
         "description": "Real Estate Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -233,7 +233,7 @@
       {
         "id": 26,
         "name": "United Country Real Estate",
-        "category": "realtor",
+        "category": "real estate & professional services",
         "description": "Real Estate Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -243,7 +243,7 @@
       {
         "id": 27,
         "name": "OMG-Optimize, Market, Grow",
-        "category": "marketing",
+        "category": "media & marketing",
         "description": "Marketing Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -253,7 +253,7 @@
       {
         "id": 28,
         "name": "Office On Main",
-        "category": "professional",
+        "category": "real estate & professional services",
         "description": "Professional Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -263,7 +263,7 @@
       {
         "id": 29,
         "name": "Sutton Printing",
-        "category": "printing",
+        "category": "media & marketing",
         "description": "Printing Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -273,7 +273,7 @@
       {
         "id": 30,
         "name": "The Skinny Armadillo",
-        "category": "printing",
+        "category": "media & marketing",
         "description": "Printing Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -283,7 +283,7 @@
       {
         "id": 31,
         "name": "PC-Cell Fixx",
-        "category": "i.T.",
+        "category": "other trades & services",
         "description": "Computer Repair Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -293,7 +293,7 @@
       {
         "id": 32,
         "name": "QTS Data Centers",
-        "category": "i.T.",
+        "category": "other trades & services",
         "description": "Data Center Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -303,7 +303,7 @@
       {
         "id": 33,
         "name": "Al Boenker Insurance",
-        "category": "insurance",
+        "category": "finance & insurance",
         "description": "Insurance Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -313,7 +313,7 @@
       {
         "id": 34,
         "name": "State Farm Insurance",
-        "category": "insurance",
+        "category": "finance & insurance",
         "description": "Insurance Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -323,7 +323,7 @@
       {
         "id": 35,
         "name": "Agnes Baptist Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -333,7 +333,7 @@
       {
         "id": 36,
         "name": "Ash Creek Baptist Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -343,7 +343,7 @@
       {
         "id": 37,
         "name": "Castle Hills Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -353,7 +353,7 @@
       {
         "id": 38,
         "name": "Community Bible Fellowship",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -363,7 +363,7 @@
       {
         "id": 39,
         "name": "Cornerstone Community Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -373,7 +373,7 @@
       {
         "id": 40,
         "name": "Creek Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -383,7 +383,7 @@
       {
         "id": 41,
         "name": "Crossing Fellowship",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -393,7 +393,7 @@
       {
         "id": 42,
         "name": "First Baptist Church Azle",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -403,7 +403,7 @@
       {
         "id": 43,
         "name": "First Methodist of Azle",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -413,7 +413,7 @@
       {
         "id": 44,
         "name": "Fellowship Of The Parks",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -423,7 +423,7 @@
       {
         "id": 45,
         "name": "Grace United Methodist Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -433,7 +433,7 @@
       {
         "id": 46,
         "name": "Granbury United Methodist Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -443,7 +443,7 @@
       {
         "id": 47,
         "name": "Grace Baptist",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -453,7 +453,7 @@
       {
         "id": 48,
         "name": "Gracepoint Baptist Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -463,7 +463,7 @@
       {
         "id": 49,
         "name": "Hilltop Family Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -473,7 +473,7 @@
       {
         "id": 50,
         "name": "Holy Trinity Catholic Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -483,7 +483,7 @@
       {
         "id": 51,
         "name": "Lake Worth Baptist Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -493,7 +493,7 @@
       {
         "id": 52,
         "name": "Lakeside  Baptist Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -503,7 +503,7 @@
       {
         "id": 53,
         "name": "Merge Community Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -513,7 +513,7 @@
       {
         "id": 54,
         "name": "New Hope Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -523,7 +523,7 @@
       {
         "id": 55,
         "name": "Once Upon A Time Foundation",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -533,7 +533,7 @@
       {
         "id": 56,
         "name": "The Fellowship Pleasant Grove",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -543,7 +543,7 @@
       {
         "id": 57,
         "name": "Project Hope",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -553,7 +553,7 @@
       {
         "id": 58,
         "name": "Ranch Cowboy Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -563,7 +563,7 @@
       {
         "id": 59,
         "name": "Silver Creek Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -573,7 +573,7 @@
       {
         "id": 60,
         "name": "Springtown Community Fellowship",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -583,7 +583,7 @@
       {
         "id": 61,
         "name": "Table Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -593,7 +593,7 @@
       {
         "id": 62,
         "name": "The Abbey Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -603,7 +603,7 @@
       {
         "id": 63,
         "name": "The Freedom Center",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -613,7 +613,7 @@
       {
         "id": 64,
         "name": "The Church At Azle",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -623,7 +623,7 @@
       {
         "id": 65,
         "name": "Wesley Chapel Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -633,7 +633,7 @@
       {
         "id": 66,
         "name": "Lighthouse Fellowship",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -643,7 +643,7 @@
       {
         "id": 67,
         "name": "The Edge Church",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
@@ -653,7 +653,7 @@
       {
         "id": 68,
         "name": "UM Army",
-        "category": "church",
+        "category": "church partners",
         "description": "Church Services",
         "address": "789 Medical Pkwy, City, ST 12345",
         "phone": "(555) 345-6789",
