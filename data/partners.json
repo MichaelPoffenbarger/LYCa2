@@ -145,9 +145,9 @@
         "name": "Pinnacle Bank",
         "category": "finance & insurance",
         "description": "Banking Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "316 NW Pkwy St, Azle, TX 76020",
+        "phone": "(817) 444-2504",
+        "website": "www.pinnbanktx.com/locations/texas/azle",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/853dfb61-29e7-4875-9bd9-d66695744004/Pinnacle_Gold_TAG_2012_no_fdic.jpg?format=300w"
       },
       {
@@ -155,9 +155,9 @@
         "name": "PNC Bank",
         "category": "finance & insurance",
         "description": "Banking Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "150 Industrial Ave, Azle, TX 76020",
+        "phone": "(817) 444-2525",
+        "website": "www.pnc.com/en/personal-banking.html",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/ed6da5ea-c028-47ca-8a7e-a0a6c456e40c/pnc+bank+.png?format=300w"
       },
       {
@@ -165,9 +165,9 @@
         "name": "First United Mortgage Group",
         "category": "finance & insurance",
         "description": "Banking Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "5600 Clearfork Main St Suite 160, Fort Worth, TX 76107",
+        "phone": "(817) 888-7920",
+        "website": "www.firstunitedteam.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/13b33fd9-ef6e-4a37-bb70-8b425eb2d3ee/First+United+Mortgage.jpg?format=300w"
       },
       {
@@ -175,19 +175,19 @@
         "name": "Benchmark Mortgage",
         "category": "finance & insurance",
         "description": "Banking Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "5160 Tennyson Pkwy Suite 1000 Plano, TX 75024",
+        "phone": "(972) 398-7676",
+        "website": "www.benchmark.us",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/595e2381-4927-48f8-bed4-6e99a2b5ab3c/benchmark+mortgage.png?format=300w"
       },
       {
         "id": 21,
         "name": "Housing Channel",
         "category": "finance & insurance",
-        "description": "Financial Advisory Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "description": "Helping people build wealth through HOMEOWNERSHIP",
+        "address": "2900 Airport Freeway Fort Worth, TX 76111",
+        "phone": "(817) 924-5091",
+        "website": "www.housingchannel.org",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/f455e924-1246-4da1-9d8e-831907380f8b/housing%2Bchannel%2Blogo.png?format=300w"
       },
       {
@@ -195,19 +195,19 @@
         "name": "Integrity Financial Group",
         "category": "finance & insurance",
         "description": "Financial Advisory Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "5748 Boat Club Rd, Fort Worth, TX 76179",
+        "phone": "(817) 484-4814",
+        "website": "www.ifgtx.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/418a2606-857f-4259-9553-6a6fec7c1298/ifg.png?format=300w"
       },
       {
         "id": 23,
         "name": "Marsha Hardin Real Estate",
         "category": "real estate & professional services",
-        "description": "Real Estate Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "description": "Marsha Hardin Real Estate specializes in residential properties, homes on acreage, farm and ranch properties, waterfront properties, and new custom homes.",
+        "address": "112 E Main St, Azle, TX 76020",
+        "phone": "(817) 444-5330",
+        "website": "www.marshahardinrealestate.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/e64e9165-6e0d-4d6b-850d-684a16d9bc53/Marsha+Hardin+Real+Estate.png?format=300w"
       },
       {
@@ -215,38 +215,38 @@
         "name": "Superior Real Estate Group",
         "category": "real estate & professional services",
         "description": "Real Estate Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "Suite A101-3900 Merrett Rd, Lake Worth, Texas, 76135",
+        "phone": "(817) 637-6202",
+        "website": "www.sregtexas.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/1ba9cd6f-175b-450b-bb53-7e61a054eece/Superior+Real+Estate+Group.jpg?format=300w"  
       },
       {
         "id": 25,
         "name": "The Property Shop",
         "category": "real estate & professional services",
-        "description": "Real Estate Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "description": "Real estate agency helping clients buy and sell homes in the Fort Worth area.",
+        "address": "120 St Louis Ave UNIT 117, Fort Worth, TX 76104",
+        "phone": "(817) 888-8849",
+        "website": "www.thepropertyshop.realtor",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/caa66435-d2ea-458e-b80f-1b2f0ea7acee/The+Property+Shop.png?format=300w"  
       },
       {
         "id": 26,
         "name": "United Country Real Estate",
         "category": "real estate & professional services",
-        "description": "Real Estate Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "description": "United Country Real Estate is a franchise-based real estate marketing company",
+        "address": "",
+        "phone": "(800) 999 1020",
+        "website": "www.unitedcountry.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/085f0fac-296a-4c49-a625-ff56945dfffe/United%2BCountry%2BReal%2BEstate.jpg?format=300w"  
       },
       {
         "id": 27,
         "name": "OMG-Optimize, Market, Grow",
         "category": "media & marketing",
-        "description": "Marketing Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
+        "description": "OMG (Optimize, Market, Grow) is a Digital Marketing Agency offering various business services such as Graphic & Website Design, Social Media & Email Marketing, SEO, CRM Implementation",
+        "address": "",
+        "phone": "(817) 917-6578",
         "website": "www.cityhealthcenter.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/aaeea48f-e9ea-4841-9a5f-9caa771450db/Untitled+design+%2835%29.png?format=300w"  
       },
@@ -255,9 +255,9 @@
         "name": "Office On Main",
         "category": "real estate & professional services",
         "description": "Professional Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "173 W Main St Ste 4, Azle, TX 76020",
+        "phone": "(817) 752-4828",
+        "website": "www.theofficeforme.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/181cb3eb-3ee4-4ab7-8d9c-fb29d3df62de/301408587_499181632209795_5026403692528890178_n.jpg?format=300w"  
       },
       {
@@ -265,9 +265,9 @@
         "name": "Sutton Printing",
         "category": "media & marketing",
         "description": "Printing Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "119 Industrial Ave, Azle, TX 76020",
+        "phone": "(817) 444-2222",
+        "website": "www.suttonprintingco.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/e53b0d8f-3935-40fd-b5f6-7858491bdc4b/sutton%2Bprinting%2Blogo.jpg?format=300w"  
       },
       {
@@ -275,9 +275,9 @@
         "name": "The Skinny Armadillo",
         "category": "media & marketing",
         "description": "Printing Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "10130 FM 1886, Azle, TX 76020",
+        "phone": "(817) 546-1430",
+        "website": "www.theskinnyarmadillo.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/4406c57c-37e8-472e-8a6e-2b3cb9b038e8/skinny%2Barm%2Blogo.png?format=300w"  
       },
       {
@@ -285,9 +285,9 @@
         "name": "PC-Cell Fixx",
         "category": "other trades & services",
         "description": "Computer Repair Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "405 W Main St A, Azle, TX 76020",
+        "phone": "(817) 382-2112",
+        "website": "www.cellfixx.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/245e3274-593e-43c2-8c65-f8d2175f8975/PC-Cell+Fixx+Logo.jpg?format=300w"  
       },
       {
@@ -295,19 +295,19 @@
         "name": "QTS Data Centers",
         "category": "other trades & services",
         "description": "Data Center Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "14100 Park Vista Blvd, Fort Worth, TX 76177",
+        "phone": "682) 502-5304",
+        "website": "www.qtsdatacenters.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/d5dab036-b7d8-4c2a-9534-33d82b6f49a4/QTS+datacenter+Logo.jpg?format=300w"  
       },
       {
         "id": 33,
         "name": "Al Boenker Insurance",
         "category": "finance & insurance",
-        "description": "Insurance Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "description": "Your Trusted Texas Insurance Specialists",
+        "address": "6030 Jacksboro Hwy, Fort Worth, TX 76135",
+        "phone": "(817) 306-2300",
+        "website": "www.thanksal.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/fb5aec6a-f14b-4f80-8c0c-8deebc7a769f/al%2Bboenker%2Blogo.jpg?format=300w"  
       },
       {
@@ -315,9 +315,9 @@
         "name": "State Farm Insurance",
         "category": "finance & insurance",
         "description": "Insurance Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "408 Boyd Ct, Azle, TX 76020",
+        "phone": "(817) 444-1100",
+        "website": "www.statefarm.com/agent/us/tx/azle",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/033a65c6-c627-475c-a7bc-be155e4906e5/State+Farm+Logo.png?format=300w"  
       },
       {
@@ -325,9 +325,9 @@
         "name": "Agnes Baptist Church",
         "category": "church partners",
         "description": "Church Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "350 Agnes N, Springtown, TX 76082",
+        "phone": "(817) 523-7271",
+        "website": "www.agnesbaptistchurch.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/99d5e39b-f563-4539-8d84-5dd324953f3b/agnes%2Bbaptist%2Bchuch%2B.jpg?format=300w"  
       },
       {
@@ -335,19 +335,19 @@
         "name": "Ash Creek Baptist Church",
         "category": "church partners",
         "description": "Church Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
+        "address": "300 S Stewart St, Azle, TX 76020",
+        "phone": "(817) 444-3219",
         "website": "www.cityhealthcenter.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/a50dbd84-2eeb-4c36-b58e-2f6f7854b045/ash%2Bcreek%2Bchurch%2B.jpg?format=300w"  
       },
       {
         "id": 37,
-        "name": "Castle Hills Church",
+        "name": "First Baptist Church of Castle Hills",
         "category": "church partners",
         "description": "Church Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "401 Beverly Rd, Azle, TX 76020",
+        "phone": "(817) 237-3891",
+        "website": "www.chbcazle.com/Home",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/72d30f6e-b270-4658-9f9c-6228d33fd4c3/castle%2Bhills%2Bchurch%2B.jpg?format=300w"  
       },
       {
@@ -355,9 +355,9 @@
         "name": "Community Bible Fellowship",
         "category": "church partners",
         "description": "Church Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "1405 Reynolds Rd, Azle, TX 76020",
+        "phone": "(817) 521-4510",
+        "website": "www.facebook.com/communitybiblefellowshipazle",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/198335e1-5a97-4184-9c51-7efc09b2da90/Community%2BBible%2BFellowship%2BLogo.jpg?format=300w"  
       },
       {
@@ -365,9 +365,9 @@
         "name": "Cornerstone Community Church",
         "category": "church partners",
         "description": "Church Services",
-        "address": "789 Medical Pkwy, City, ST 12345",
-        "phone": "(555) 345-6789",
-        "website": "www.cityhealthcenter.com",
+        "address": "2233 E Hwy 199, Springtown, TX 76082",
+        "phone": "(817) 221-5433",
+        "website": "www.cornerstonecommunity.com",
         "image": "https://images.squarespace-cdn.com/content/v1/6411fc36b2cfc644c3df27c5/f87fd094-85e4-4bbd-946e-af851a7075c4/cornerstone%2Bchurch%2B.jpg?format=300w"  
       },
       {
