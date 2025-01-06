@@ -94,6 +94,22 @@
             display: none;
         }
 
+        .fab {
+            color: rgb(25, 0, 255);
+            font-size: 24px;
+            height: 32px;
+            width: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgb(25, 0, 255);
+            border-radius: 50%;
+            padding: 5px;
+            background-color: var(--primary-blue);
+            color: white;
+            display: inline-flex;
+        }
+
         .disclaimer-bar {
             position: fixed;
             bottom: 0;
@@ -263,7 +279,7 @@
     <!-- Main Content -->
     <div class="container my-5 d-flex">
         <!-- Desktop Filter Sidebar -->
-        <div class="filter-buttons desktop sticky-top col-md-4 col-lg-2 col-sm-4" style="z-index: 1; padding-bottom: 18px; padding-right: 10px;">
+        <div class="filter-buttons desktop sticky-top col-md-4 col-lg-2 col-sm-4 text-center" style="z-index: 1; padding-bottom: 18px; padding-right: 10px;">
             <div class="d-flex flex-column justify-content-center">
                 <h4 style="text-decoration: underline;" style="font-size: 18px; font-family: 'Poppins', sans-serif;">Categories</h4>
                 <button class="filter-btn active" data-category="all">All Partners</button>
@@ -343,7 +359,7 @@
                 data.partners.forEach(partner => {
                     const partnerCard = `
                         <div class="col-md-8 col-lg-8 col-sm-12 partner-card" data-category="${partner.category}">
-                            <div class="card" style="width: 100%; height: auto; background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2148809725.jpg?t=st=1735931281~exp=1735934881~hmac=6a9527e6daa8a6d8afc345851cc7ca61fe5b93b8d9373918eb24d3d0e64fe61c&w=1380'); background-size: cover; background-position: center;">
+                            <div class="card" style="width: 100%; height: auto; background: ">
                                 <div class="row align-items-center" style="margin: 4px 4px;">
                                     <img src="${partner.image}" class="card-img-logo col-md-12 col-lg-3 col-sm-12" alt="${partner.name}" style="max-width: 7500%; max-height: 200px; border-radius: 10%; object-fit: contain;">
                                     <div class="card-body col-md-8 col-lg-8 col-sm-12">
@@ -365,19 +381,19 @@
                                                 <p class="card-text"><small class="text-muted">${partner.address}</small></p>
                                                 <p class="card-text"><small class="text-muted"><i class="fas fa-phone"></i> ${partner.phone}</small></p>
                                                 
-                                                <a href="http://${partner.website}" class="btn btn-primary" target="_blank" style="display: flex; justify-content: center; align-items: center; width: 100%; background-color: var(--primary-blue); color: white;">Visit Website</a>
+                                                <a href="http://${partner.website}" class="btn btn-primary" target="_blank" style="display: flex; justify-content: center; align-items: center; width: 100%; background-color: var(--primary-blue); color: white; margin-bottom: 16px;">Visit Website</a>
                                             </div>
                                             <div class="col-md-6 col-lg-3 col-sm-12">
                                                 
                                                 <p class="card-text" style="font-size: 14px;">More details about the partner</p>
-                                                <div class="rating">
+                                                <div class="rating" style="margin-bottom: 16px;">
                                                     <i class="fas fa-ribbon" style="color: gold;"></i>
                                                     <i class="fas fa-ribbon" style="color: gold;"></i>
                                                     <i class="fas fa-ribbon" style="color: gold;"></i>
                                                     <i class="fas fa-ribbon" style="color: gold;"></i>
                                                     <i class="fas fa-ribbon" style="color: gold;"></i>
                                                 </div>
-                                                <div class="social-icons" style="margin-top: 12px; margin-bottom: 12px;">
+                                                <div class="social-icons" style="margin-bottom: 12px;">
                                                     <a href="${partner.facebook}" target="_blank" style="margin-right: 10px;"><i class="fab fa-facebook-f"></i></a>
                                                     <a href="${partner.instagram}" target="_blank" style="margin-right: 10px;"><i class="fab fa-instagram"></i></a>
                                                     <a href="${partner.twitter}" target="_blank" style="margin-right: 10px;"><i class="fab fa-twitter"></i></a>
